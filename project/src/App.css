@@ -1,0 +1,246 @@
+/*@media screen and (min-width: 480px) {*/
+/*  body {*/
+/*  }*/
+/*}*/
+
+.App {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.cont {
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 20px;
+    width: 410px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-color: black;
+    border-style: groove;
+}
+
+.cont:hover {
+    width: 420px;
+}
+
+.livescore {
+    align-items: center;
+    justify-content: center;
+    background-image: url("stadium_bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 500px) {
+    .livescore {
+        background-image: none;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+.news {
+    align-items: center;
+    margin: 50px;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: groove;
+}
+
+.News {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.points {
+    display: flex;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: separate;
+    background-color: lightgrey;
+    color: black;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin-left: -25%;
+    border: 1px solid #888;
+    width: 180%;
+}
+
+@media screen and (max-width: 720px) {
+    .modal-content {
+        background-color: #fefefe;
+        margin-left: 0;
+        border: 1px solid #888;
+        width: 100%;
+    }
+}
+
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.modal-backdrop {
+    height: 0;
+}
+
+.green {
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+.commentWrapper
+{
+   padding-left :10%;
+   padding-right :10%;
+   padding-top :10px;
+}
+.messages {
+    overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+  height : 300px;
+  border : solid 1px black;
+
+}
+.match{
+    margin-bottom:5px;
+    font-size : 20px;
+}
+.messageContent
+{    border-bottom: solid 1px black;
+    background-color: rgb(232, 232, 238);
+
+}
+/*.graphWidth {*/
+/*    width: auto;*/
+/*}*/
+
+@media screen and (max-width: 425px) {
+    .margin {
+        margin-left: 50%;
+    }
+    .margin2 {
+        margin-left: 50%;
+    }
+}
+
+/*@media screen and (max-width: 800px) {*/
+/*    .graphWidth {*/
+/*        width: 700px;*/
+/*    }*/
+/*}*/
+@media screen and (max-width: 400px) {
+    .graphWidth {
+        width: 350px;
+    }
+}
+@media screen and (min-width: 400px ) and (max-width: 600px) {
+    .graphWidth {
+        width: 500px;
+    }
+}
+@media screen and (min-width: 600px ) and (max-width: 800px) {
+    .graphWidth {
+        width: 700px;
+    }
+}
+
+@media screen and (min-width: 800px ) and (max-width: 1000px) {
+    .graphWidth {
+        width: 900px;
+    }
+}
+@media screen and (min-width: 1000px ) and (max-width: 1200px) {
+    .graphWidth {
+        width: 1100px;
+    }
+}
+
+@media screen and (min-width: 1200px ) and (max-width: 1500px) {
+    .graphWidth {
+        width: 1400px;
+    }
+}
+@media screen and (min-width: 1500px ) and (max-width: 1800px) {
+    .graphWidth {
+        width: 1700px;
+    }
+}
+@media screen and (min-width: 1800px ) {
+    .graphWidth {
+        width: 1800px;
+    }
+}
+
+
+@media screen and (min-width: 800px ) and (max-width: 1200px) {
+    .graphWidth {
+        width: 1000px;
+    }
+}

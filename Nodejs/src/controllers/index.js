@@ -1,0 +1,1 @@
+module.exports.footballController = require('./football.controller');
